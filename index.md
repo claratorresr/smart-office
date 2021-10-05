@@ -20,14 +20,40 @@ In order to improve the comfort, wellness, and health of workers, we want to cre
 
 **Physical Principles**
 
-Temperature:
+**Temperature:**
 It is a physical quantity that expresses hot and cold. It is the manifestation of thermal energy present in all matter. The temperature is measured with thermometers that are calibrated in different temperature scales that have used various reference points and thermometric substances for definition. However, human perception of hotness or coldness is relative. For instance, people living in colder climates as in Greenland could consider a cold temperature as low as -10 degrees Celsius (14 fahrenheit degrees) but for someone living in Brazil, the cold temperature could be less than 10 degrees Celsius (50 fahrenheit degrees). The lowest theoretical temperature is he absolute zero, which means that at this temperature no more thermal energy can be extracted from a body.
 
-CO2:
+**CO2:**
 Carbon Dioxide or CO2 is a greenhouse gas that is natural and harmless when it is presented in small quantities, but if its levels rise it can affect productivity and also sleep. Its density is 53% higher than that of dry air and its molecules consist of a carbon atom covalently double bonded to two oxygen atoms. This gas is produced mostly in indoor spaces by the air people exhale, and its levels concentrate with less ventilation. Nowadays buildings have implemented ventilation systems that recycle air and move the contaminated air around rather than cycling in new air. Which results in high levels of CO2 concentration and poor indoor air quality. Moreover, CO2 emissions are the primary driver of global climate change and it is widely recognized that to avoid the worst impacts in climate change, the globe needs to lower these CO2 emissions.
 
+**Motion**
+..
+.
+.
+.
+.
+.
 
 
 **For Progress Report**
+First report by (10/1/2021):
+-Additional sensor SCD-30 - NDIR CO2, Temperature and Humidity sensor and a miniature 5V cooling fan were ordered form Adafru.it.
+-The team started creating the code to meet our 3 main goals, measure temperature, detect motion to turn on lights and detect high CO2 levels
+
+
+Temperature Code:
+.
+.
+.
+Motion detection code:
+.
+.
+.
+
+
 
 Problems Encountered
+September 28,2021:
+-
+-One of the goals of this project is to measure the CO2 levels, but the sensor was not avaiable. The soluction to this was to order it from Audifrut.
+
