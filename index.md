@@ -35,6 +35,12 @@ Carbon Dioxide or CO<sub>2</sub> is a greenhouse gas that is natural and harmles
 
 Motion is the action of changing location or position. There are three main types of motion. Translational motion means that an object is moving in a translational direction, changing its location instead of not going anywhere. The oscillatory motion is repetitive and fluctuates between two locations, which are considered oscillatory movements; a very common example of this motion is the pendulum. This type of motion is interesting because it is considered to be periodic in time. The term type of motion is rotational. This one occurs when an object spins, for example, the Earth or the Sun (The Physics Hypertextbook).
 
+A static character does not change significantly at any point and remains constant from beginning to end. Conversely, a dynamic character undergoes a significant change at some point or has a periodic change. In this project, temperature and CO2 have a static behavior since they will not change on a periodic basis throughout the sensor's operation. They each measure a certain property with one main input. However, the motion detected can have both static and dynamic behavior. When a person is working at their desk, the motion can be interpreted as static because the sensor is calibrated to avoid detecting highly sensitive motions such as flies or insects. When people enter and exit the office, the motion reflects dynamic behavior.
+
+**Static and Dynamic Behavior**
+
+A static character does not change significantly at any point and remains constant from beginning to end. Conversely, a dynamic character undergoes a significant change at some point or has a periodic change. In this project, temperature and CO2 have a static behavior since they will not change on a periodic basis throughout the sensor's operation. They each measure a certain property with one main input. However, the motion detected can have both static and dynamic behavior. When a person is working at their desk, the motion can be interpreted as static because the sensor is calibrated to avoid detecting highly sensitive motions such as flies or insects. When people enter and exit the office, the motion reflects dynamic behavior.
+
 ***Review of Sensors Being Utilized***
 
 **Physical Principles**
