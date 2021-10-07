@@ -10,6 +10,9 @@ Video Link:
 
 In order to improve the comfort, wellness, and health of workers, we want to create a smart office sensor system. During a typical workday, the temperature fluctuates dramatically, especially during the fall or spring seasons; it can be cold in the morning but drastically change in the afternoon. Connecting and disconnecting fans, as well as opening and closing windows, is inefficient and interrupts employees' workflow. With the current COVID-19 pandemic, it is important to monitor CO2  levels in offices and to alert employees when windows should be opened and when there are more people than recommended to prevent contagion. On the other hand, many offices are currently not energy efficient because they lack an energy-control system that optimizes electricity use, resulting in significant energy waste.
 
+[[https://github.com/smart-office-project/smart-office-project.github.io.wiki.git]]
+Figure 1. Smart Office source: https://www.oms-is.eu/offisys/
+
 **Goals**
 - Activate the fan automatically when the DHT11  Temperature and Humidity sensor detects temperatures higher than 25 degrees Celsius  (77 degrees Fahrenheit).
 - Automate the lighting system in an office to improve energy efficiency using the HC-SR501 Infrared PIR Motion Sensor Module.
