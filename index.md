@@ -3,7 +3,7 @@
 
 Video Link:
 
-**Introduction**
+***Introduction***
 
 
 **Motivation**
@@ -21,19 +21,92 @@ In order to improve the comfort, wellness, and health of workers, we want to cre
 **Physical Principles**
 
 **Temperature:**
+
 It is a physical quantity that quantifies hot and cold. It is the manifestation of thermal energy present in all matter. The temperature is measured with thermometers that are calibrated in different temperature scales that have used various reference points and thermometric substances for definition. However, the human perception of hotness or coldness is relative. For instance, people living in colder climates like in Greenland may consider a cold temperature as low as -10 degrees Celsius (14 degrees Fahrenheit), whereas people living in Brazil may consider the cold temperature as low as less than 10 degrees Celsius (50 degrees Fahrenheit). The lowest theoretical temperature is absolute zero, which means that at this temperature, no more thermal energy can be extracted from a body (The Editors of Encyclopaedia Britannica).
 
 **CO2:**
+
 Carbon Dioxide or CO2 is a greenhouse gas that is natural and harmless when it is presented in small quantities, but if its level rises, it can affect productivity and sleep quality. Its density is 53% higher than that of dry air and its molecules consist of a carbon atom covalently double bonded to two oxygen atoms. This gas is produced mostly in indoor spaces by the air people exhale, and its levels concentrate with less ventilation. Nowadays, buildings have implemented ventilation systems that recycle air and move the contaminated air around rather than cycling in new air, which results in high levels of CO2 concentration and poor indoor air quality. Moreover, CO2 emissions are the primary driver of global climate change, and it is widely recognized that to avoid the worst impacts of climate change, the globe needs to lower these CO2 emissions (Ritchie & Roser).
 
 **Motion:**
+
 Motion is the action of changing location or position. There are three main types of motion. Translational motion means that an object is moving in a translational direction, changing its location instead of not going anywhere. The oscillatory motion is repetitive and fluctuates between two locations, which are considered oscillatory movements; a very common example of this motion is the pendulum. This type of motion is interesting because it is considered to be periodic in time. The term type of motion is rotational. This one occurs when an object spins, for example, the Earth or the Sun (The Physics Hypertextbook).
+
+***Review of Sensors Being Utilized***
+
+**Physical Principles**
+
+*Temperature measurement with DHT11 Temperature & Humidity Sensor Module:*
+
+For the purpose of this project, even though it consists of capacitive humidity sensing and a thermistor for sensing temperature. We would focus on the latter one only. For measuring temperature this sensor uses a negative Temperature coefficient thermistor, which with an increase in the temperature, causes a decrease in its resistance value. To get a larger resistance value even for the smallest change in temperature, this sensor is usually made up of semiconductor ceramics or polymers according to the Elprocus reference.
+
+*CO2 measurement with Adafruit SCD-30 - NDIR CO2:*
+
+Indoor CO2 concentrations are recommended to maintain below 800 ppm in offices. The NDIR (Non-Dispersive Infra-Red) CO2 molecules absorb infrared radiation of certain wavelengths. Therefore,  as the CO2 concentration rises, more radiation CO2 is absorbed. For instance, the wavelength of 4.3μm has the maximum absorption for CO2 and minimal absorption for other gases in the air (Electronic Components).
+
+*Motion measurement with HC-SR501 Infrared PIR Motion Sensor Module:*
+
+This sensor is categorized as a Passive Infrared (PIR), it has 2 slots in it that are sensitive to infrared. When the sensor is idle, both slots detect the same amount of infrared, when a warm body passes, for example a person or an animal, it first intercepts one half of the PIR sensor, which causes a positive differential change between the two halves. And, when this stimulus is out of the detecting area, the contrary happens, the sensor generates a negative differential change. Therefore, these change pulses are what is detected for this sensor (Ada).
+
+**Static and Dynamic Behavior**
+
+**Sensor Characteristics**
+
+**DHT11 Temperature & Humidity Sensor Module**
+- 3 to 5V power and I/O
+- 2.5mA max current use during conversion (while requesting data)
+- Good for 20-80% humidity readings with 5% accuracy
+- Good for 0-50°C temperature readings ±2°C accuracy
+- No more than 1 Hz sampling rate (once every second)
+- Body size 15.5mm x 12mm x 5.5mm
+- 4 pins with 0.1" spacing
+
+Source: https://shop.evilmadscientist.com/productsmenu/716
+
+**Adafruit SCD-30 - NDIR CO2, Temperature and Humidity sensor**
+- NDIR CO2 sensor technology
+- Integrated temperature and humidity sensor
+- Dual-channel detection for superior stability
+- Measurement range: 400 ppm – 10,000 ppm
+- Accuracy: ±(30 ppm + 3%)
+- Current consumption: 19 mA @ 1 meas. per 2 s.
+- Fully calibrated and linearized
+- I2C digital interface address 0x61
+
+Source: https://www.adafruit.com/product/386
+
+**HC-SR501 Infrared PIR Motion Sensor Module**
+- Output: Digital pulse high (3V) when triggered (motion detected) digital low when idle (no motion detected). Pulse lengths are determined by resistors and capacitors on the PCB and differ from sensor to sensor.
+- Sensitivity range: up to 20 feet (6 meters) 110° x 70° detection range
+- Power supply: 5V-12V input voltage for most modules (they have a 3.3V regulator), but 5V is ideal in case the regulator has different specs
+- BIS0001 Datasheet (the decoder chip used)
+- RE200B datasheet (most likely the PIR sensing element used)
+- NL11NH datasheet (equivalent lens used)
+- Parallax Datasheet on their version of the sensor
+
+Source: https://www.adafruit.com/product/4867
+
 ..
 .
 .
 .
+
+****References:****
+
+Ritchie, H., & Roser, M. (n.d.). CO2 emissions. Retrieved from https://ourworldindata.org/co2-emissions
+
+airthings.com. (n.d.). What is CO2. Retrieved from https://www.airthings.com/
+
+The Editors of Encyclopaedia Britannica. (n.d.). Temperature. Retrieved from https://www.britannica.com/science/temperature
+
+The Physics Hypertextbook - Motion. (n.d.). Retrieved from https://physics.info/motion/
+
+Ada, L. (s.f.). PIR Motion Sensor. Obtenido de https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work
+
+Electronic Components. (n.d.). SCD30 is More Than Just the NDIR CO2 Sensor. Retrieved from https://www.soselectronic.com/articles/sensirion/scd30-is-more-than-just-the-ndir-co2-sensor-2152
 .
 .
+
 
 
 **For Progress Report**
