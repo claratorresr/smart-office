@@ -9,7 +9,7 @@ Created on Tue Oct 8 11:47:39 2021
 import RPi.GPIO as GPIO
 import time
 from scd30_i2c import SCD30
-from pushover import Client
+from pushover import Client # Library for sending push notification
 import sys
 # Initializing the SCD sensor
 scd30 = SCD30()
@@ -20,9 +20,9 @@ client = Client("usuus8pcfq8b2knfc5b12f6ikgiosu", api_token="aapd3ssp5fzri8h6kma
 
 def main():
     GPIO.setmode(GPIO.BCM)
-    
+
     GPIO.setup(red_led, GPIO.OUT)
-    # set interval for data reading
+    # set interval for data reading, default is 2 seconds
     scd30.set_measurement_interval()
     scd30.start_periodic_measurement()
     
@@ -37,15 +37,18 @@ def main():
                 # if co2 is greater than 2000 ppm or temperature is more than 26 degrees C
                 if data[0]>2000 or data[1]>26:
                     GPIO.output(red_led, GPIO.HIGH)
-                else:  
+                    
+                    client.send_message("Open the window", title="CO2 Poisoning notification")
+
+                else:
                     GPIO.output(red_led, GPIO.LOW)
-                    #client.send_message("Open the window", title="CO2 Poisoning notification")
-    
+                    
+
             time.sleep(2)
         else:
             time.sleep(0.2)
-    
-    
+
+
 if __name__ == '__main__':
 
     try:
