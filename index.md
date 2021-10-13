@@ -9,6 +9,7 @@
 <h3>Motivation</h3>
 
 In order to improve the comfort, wellness, and health of workers, we want to create a smart office sensor system. During a typical workday, the temperature fluctuates dramatically, especially during the fall or spring seasons; it can be cold in the morning but drastically change in the afternoon. Connecting and disconnecting fans, as well as opening and closing windows, is inefficient and interrupts employees' workflow. With the current COVID-19 pandemic, it is important to monitor CO2  levels in offices and to alert employees when windows should be opened and when there are more people than recommended to prevent contagion. On the other hand, many offices are currently not energy efficient because they lack an energy-control system that optimizes electricity use, resulting in significant energy waste.
+
 ![Smart Office](smart_office.jpg)
 Figure 1. Smart Office source: https://www.oms-is.eu/offisys/
 
@@ -30,21 +31,23 @@ The team gathered the information needed and sensor specification sheets to achi
   
 Motion detection code:
 
+![2a](2a.png)
 
+![2b](2b.png)
   
   
 Temperature measurement and led control:
 
+![3](3.png)
 
   
 Report by (10/05/2021)
 
 The team performed the sensor setup, led setup and wiring as shown in the following pictures, we tested the codes created, the temperature sensor performed well but the infrared sensor had issues when detecting motion. Simultaneously, the team continued updating the project report.
 
-   PHOTO
+![4a](4a.jpg)
 
-
-   PHOTO
+![4b](4b.jpg)
 
 
 Report by (10/07/2021)
@@ -57,21 +60,28 @@ Report by (10/10/2021)
 
 The team created the last version of the coding to achieve the project goals, we did experiments and continued working on the report. Finally, we decided to use just the SCD-30 - NDIR CO2, Temperature and Humidity sensor instead of the DHT11  Temperature and Humidity sensor, since the first one includes the functions of the second one, and also we used the HC-SR501 Infrared PIR Motion Sensor Module.
 
-  Motion detection code:
+Motion detection code:
   
-   PHOTO
-  
-  
-  CO2, Temperature code:
-  
-   PHOTO
-  
-  
-  Final set up:
-  
-   PHOTO
+![5a](5a.png)
 
+![5b](5b.jpg)
   
+CO2, Temperature code:
+
+ 
+![6a](6a.jpg)
+
+![6b](6b.jpg)
+  
+  
+Final set up:
+
+ 
+![7a](7a.jpg)
+
+![7b](7b.jpg)
+
+
 <h3>Problems Encountered</h3>  
 
 <ul type="circle">
@@ -83,17 +93,12 @@ The team created the last version of the coding to achieve the project goals, we
   
 <li> We were having trouble with the PIR motion sensor. We were only getting an output saying “Motion Detected”. Our first method of troubleshooting was to use a different PIR sensor. This did not seem to work, so we decided the problem lies elsewhere. After visiting Professor Bergés, he was able to see that our delay was set very high, so after the PIR was triggered it would not stop outputting “Motion Detected”. We turned this parameter down and now we can see that the PIR sensor is working properly. See the figure below.
 </ul>  
-  
-  
-  
-  
-  
-  photo
-  
-  
-  
+ 
+ 
+![8](8.jpg)  
 
   
+
 <h2>Metodology</h2> 
 
 <h3>Review of the Phenomena of Interest</h3>
@@ -141,9 +146,10 @@ The DHT11 temperature and humidity sensor uses a simplified single-bus communica
 <h4>DHT11 Temperature & Humidity Sensor Module</h4>
   
   
-  
+![9a](9a.jpg)    
 
-  
+Source:https://www.smart-prototyping.com/DHT11-Humidity-and-Temperature-Sensor-Module
+
 <ul type="circle"> 
 <li> 3 to 5V power and I/O
 <li> 2.5mA max current use during conversion (while requesting data)
@@ -159,8 +165,9 @@ Source: https://shop.evilmadscientist.com/productsmenu/716
 <h4>Adafruit SCD-30 - NDIR CO<sub>2</sub>, Temperature and Humidity sensor</h4>
   
   
-  
-  
+![9b](9b.jpg)      
+
+Source: https://learn.adafruit.com/adafruit-scd30?view=all
   
 <ul type="circle"> 
 <li> NDIR CO<sub>2</sub> sensor technology
@@ -178,8 +185,11 @@ Source: https://www.adafruit.com/product/386
 <h4>HC-SR501 Infrared PIR Motion Sensor Module</h4>
   
   
-  
-  
+![9c](9c.jpg)     
+
+Source:https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work
+ 
+ 
 <ul type="circle">
 <li> Output: Digital pulse high (3V) when triggered (motion detected) digital low when idle (no motion detected). Pulse lengths are determined by resistors and capacitors on the PCB and differ from sensor to sensor.
 <li> Sensitivity range: up to 20 feet (6 meters) 110° x 70° detection range
