@@ -139,8 +139,7 @@ The DHT11 temperature and humidity sensor uses a simplified single-bus communica
 <h4>DHT11 Temperature & Humidity Sensor Module</h4> 
   
 ![9a](9a.jpg)    
-
-Source:https://www.smart-prototyping.com/DHT11-Humidity-and-Temperature-Sensor-Module
+Image Source:https://www.smart-prototyping.com/DHT11-Humidity-and-Temperature-Sensor-Module
 
 <ul type="circle"> 
 <li> 3 to 5V power and I/O
@@ -150,16 +149,16 @@ Source:https://www.smart-prototyping.com/DHT11-Humidity-and-Temperature-Sensor-M
 <li> No more than 1 Hz sampling rate (once every second)
 <li> Body size 15.5mm x 12mm x 5.5mm
 <li> 4 pins with 0.1" spacing</li>
-</ul>
+  
 Source: https://shop.evilmadscientist.com/productsmenu/716  
-
+</ul>
 
 <h4>Adafruit SCD-30 - NDIR CO<sub>2</sub>, Temperature and Humidity sensor</h4>
   
   
 ![9b](9b.jpg)      
 
-Source: https://learn.adafruit.com/adafruit-scd30?view=all
+Image Source: https://learn.adafruit.com/adafruit-scd30?view=all
   
 <ul type="circle"> 
 <li> NDIR CO<sub>2</sub> sensor technology
@@ -170,15 +169,15 @@ Source: https://learn.adafruit.com/adafruit-scd30?view=all
 <li> Current consumption: 19 mA @ 1 meas. per 2 s.
 <li> Fully calibrated and linearized
 <li> I2C digital interface address 0x61</li>
-</ul>
-
+  
 Source: https://www.adafruit.com/product/386
+</ul>
 
 <h4>HC-SR501 Infrared PIR Motion Sensor Module</h4>
   
 ![9c](9c.jpg)     
 
-Source:https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work
+Image Source:https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work
  
  
 <ul type="circle">
@@ -189,9 +188,9 @@ Source:https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/h
 <li> RE200B datasheet (most likely the PIR sensing element used)
 <li> NL11NH datasheet (equivalent lens used)
 <li> Parallax Datasheet on their version of the sensor</li>
-</ul>
+  
 Source: https://www.adafruit.com/product/4867
-
+</ul>
 
 <h3>Signal Processing</h3>
   
