@@ -95,7 +95,7 @@ Final set up:
 </ul>  
  
  
-![8](8.jpg)  
+![8.](8..jpg)  
 
   
 
