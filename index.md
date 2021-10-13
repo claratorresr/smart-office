@@ -8,7 +8,7 @@
 
 <h3>Motivation</h3>
 
-In order to improve the comfort, wellness, and health of workers, we want to create a smart office sensor system. During a typical workday, the temperature fluctuates dramatically, especially during the fall or spring seasons; it can be cold in the morning but drastically change in the afternoon. Connecting and disconnecting fans, as well as opening and closing windows, is inefficient and interrupts employees' workflow. With the current COVID-19 pandemic, it is important to monitor CO2  levels in offices and to alert employees when windows should be opened and when there are more people than recommended to prevent contagion. On the other hand, many offices are currently not energy efficient because they lack an energy-control system that optimizes electricity use, resulting in significant energy waste.
+In order to improve the comfort, wellness, and health of workers, we want to create a smart office sensor system. During a typical workday, the temperature fluctuates dramatically, especially during the fall or spring seasons; it can be cold in the morning but drastically change in the afternoon. Connecting and disconnecting fans, as well as opening and closing windows, is inefficient and interrupts employees' workflow. With the current COVID-19 pandemic, it is important to monitor CO<sub>2</sub>  levels in offices and to alert employees when windows should be opened and when there are more people than recommended to prevent contagion. On the other hand, many offices are currently not energy efficient because they lack an energy-control system that optimizes electricity use, resulting in significant energy waste.
 
 ![Smart Office](images/smart_office.jpg)
 Image Source: https://www.oms-is.eu/offisys/
@@ -27,7 +27,7 @@ Image Source: https://www.oms-is.eu/offisys/
   
 <h4>Report by (10/01/2021)</h4>
   
-The team gathered the information needed and sensor specification sheets to achieve the project. Additional sensor SCD-30 - NDIR CO2, Temperature and Humidity and a miniature 5V cooling fan were ordered from Adafruit. The team started creating the code to meet our 3 main goals, measure temperature, detect motion to turn on lights in the smart office and detect high high CO2 levels. Moreover, during this meeting, the team initiated the project report.v
+The team gathered the information needed and sensor specification sheets to achieve the project. Additional sensor SCD-30 - NDIR CO<sub>2</sub>, Temperature and Humidity and a miniature 5V cooling fan were ordered from Adafruit. The team started creating the code to meet our 3 main goals, measure temperature, detect motion to turn on lights in the smart office and detect high high CO<sub>2</sub> levels. Moreover, during this meeting, the team initiated the project report.v
   
 <h5>Motion detection code:</h5>
 
@@ -54,13 +54,13 @@ The team met with Professor Berges and he helped to correct mistakes in the curr
 
 <h4>Report by (10/10/2021)</h4>
 
-The team created the last version of the coding to achieve the project goals, we did experiments and continued working on the report. Finally, we decided to use just the SCD-30 - NDIR CO2, Temperature and Humidity sensor instead of the DHT11  Temperature and Humidity sensor, since the first one includes the functions of the second one, and also we used the HC-SR501 Infrared PIR Motion Sensor Module.
+The team created the last version of the coding to achieve the project goals, we did experiments and continued working on the report. Finally, we decided to use just the SCD-30 - NDIR CO<sub>2</sub>, Temperature and Humidity sensor instead of the DHT11  Temperature and Humidity sensor, since the first one includes the functions of the second one, and also we used the HC-SR501 Infrared PIR Motion Sensor Module.
 
 <h5>Motion detection code:</h5>
 <img src="images/code_d.png" class="img-responsive" alt="">
 <img src="images/code_e.png" class="img-responsive" alt="">
   
-<h5>CO2, Temperature code:</h5>
+<h5>CO<sub>2</sub>, Temperature code:</h5>
  <img src="images/code_f.png" class="img-responsive" alt="">
  <img src="images/code_g.png" class="img-responsive" alt="">
   
@@ -76,7 +76,7 @@ The team created the last version of the coding to achieve the project goals, we
 <li> We realized that the fan we bought was a 5V fan that is made to keep the raspberry pi cool. We wanted to get a fan that we could control with the GPIO’s but those only supply 3.3V. When looking into a solution, we found that we could wire it with a transistor to get the set-up we wanted, but we did not want to buy a transistor due to time constraint. After visiting Professor Bergés, he suggested that it would be easier to wire the fan with a relay but that would still require time to acquire. He ultimately decided that we could simply wire an LED to signal when the fan should be turned off/on and then we could unplug/plug the fan by hand since this was within the scope of the class.
 
   
-<li> The CO2 sensor we bought came without pins installed. We learned that we would need to get the pins soldered to the sensor ourselves. We took the sensor to TechSpark and they were kind enough to help us out.
+<li> The CO<sub>2</sub> sensor we bought came without pins installed. We learned that we would need to get the pins soldered to the sensor ourselves. We took the sensor to TechSpark and they were kind enough to help us out.
 
   
 <li> We were having trouble with the PIR motion sensor. We were only getting an output saying “Motion Detected”. Our first method of troubleshooting was to use a different PIR sensor. This did not seem to work, so we decided the problem lies elsewhere. After visiting Professor Bergés, he was able to see that our delay was set very high, so after the PIR was triggered it would not stop outputting “Motion Detected”. We turned this parameter down and now we can see that the PIR sensor is working properly. See the figure below.</ul>  
@@ -104,7 +104,7 @@ Motion is the action of changing location or position. There are three main type
 
 <h3>Static and Dynamic Behavior</h3>
 
-A static character does not change significantly at any point and remains constant from beginning to end. Conversely, a dynamic character undergoes a significant change at some point or has a periodic change. In this project, temperature and CO2 have a static behavior since they will not change on a periodic basis throughout the sensor's operation. They each measure a certain property with one main input. However, the motion detected can have both static and dynamic behavior. When a person is working at their desk, the motion can be interpreted as static because the sensor is calibrated to avoid detecting highly sensitive motions such as flies or insects. When people enter and exit the office, the motion reflects dynamic behavior.
+A static character does not change significantly at any point and remains constant from beginning to end. Conversely, a dynamic character undergoes a significant change at some point or has a periodic change. In this project, temperature and CO<sub>2</sub> have a static behavior since they will not change on a periodic basis throughout the sensor's operation. They each measure a certain property with one main input. However, the motion detected can have both static and dynamic behavior. When a person is working at their desk, the motion can be interpreted as static because the sensor is calibrated to avoid detecting highly sensitive motions such as flies or insects. When people enter and exit the office, the motion reflects dynamic behavior.
 
 <h2>Sensors Used</h2>
 
@@ -183,7 +183,7 @@ Source: https://www.adafruit.com/product/4867
 
 <h3>Signal Processing</h3>
   
-We wanted the fan in our smart office to be able to respond to both higher levels of CO2 and higher temperatures. To do this, we set a threshold for each that would trigger the fan. If the CO2 exceeds 2,000 ppm and if the temperature exceeds 25 degrees Celsius, then the fan should turn on. Our placeholder for the fan was a red LED because we would have needed to purchase either a relay or a transistor last minute to actually perform this action. Using an “or” statement, the fan (red LED) was set to turn on if either one of the sensors exceeded their threshold, or if they were both exceeding their thresholds. The fan (red LED) would not turn off until both sensor readings were below their thresholds. 
+We wanted the fan in our smart office to be able to respond to both higher levels of CO<sub>2</sub> and higher temperatures. To do this, we set a threshold for each that would trigger the fan. If the CO<sub>2</sub> exceeds 2,000 ppm and if the temperature exceeds 25 degrees Celsius, then the fan should turn on. Our placeholder for the fan was a red LED because we would have needed to purchase either a relay or a transistor last minute to actually perform this action. Using an “or” statement, the fan (red LED) was set to turn on if either one of the sensors exceeded their threshold, or if they were both exceeding their thresholds. The fan (red LED) would not turn off until both sensor readings were below their thresholds. 
 
 A similar but simpler control was set up so that when the PIR motion sensor detects motion, a yellow LED would turn on. This yellow LED was meant to represent the lights in an office. For the demonstration we only had the yellow LED turn on for a few seconds, but in a practical setting, we would ensure the lights stayed on for around 30 min after detecting motion.
   
@@ -202,14 +202,14 @@ To test whether the temperature and humidity were responsive to changes in the e
   
 <h4>Adafruit SCD-30 - NDIR CO<sub>2</sub>, Temperature and Humidity sensor</h4>
 
-Just like with the temperature and humidity sensor, we could not control the amount of CO2 we were exposed to the sensor. To test the responsiveness of the sensor to changes in the environment, we blew on the sensor with different intensities. We noticed that as we got closer to the sensor and blew harder, the concentration would increase. Also, over a couple of minutes of time, we closed the door with the four of us in the room with the sensor and saw that the concentration slowly increased. Then, after we opened the door again, the readings fell again. We used an LED light to see how the LED responded to a certain threshold of CO2 reading. For this experiment, we set 2000 ppm as a threshold. So whenever the CO2 was over 2000 ppm, the LED would turn on and vice versa.
+Just like with the temperature and humidity sensor, we could not control the amount of CO<sub>2</sub> we were exposed to the sensor. To test the responsiveness of the sensor to changes in the environment, we blew on the sensor with different intensities. We noticed that as we got closer to the sensor and blew harder, the concentration would increase. Also, over a couple of minutes of time, we closed the door with the four of us in the room with the sensor and saw that the concentration slowly increased. Then, after we opened the door again, the readings fell again. We used an LED light to see how the LED responded to a certain threshold of CO<sub>2</sub> reading. For this experiment, we set 2000 ppm as a threshold. So whenever the CO<sub>2</sub> was over 2000 ppm, the LED would turn on and vice versa.
   
   
 <h2>Discussion</h2>  
   
-This project has been adjusted throughout time as some components were not working well. Finally, our setup consists of the DHT11 for temperature and humidity, the NDIR CO2 sensor, and the infrared PIR motion sensor. We can monitor the temperature, humidity, CO2 level, and motion detection in a room. We have a red LED that responds to the CO2 level by turning on the light when the level of CO2 surpasses the threshold of 2000 ppm and the temperature level by turning on when the temperature exceeds 25o C. Another yellow LED indicates whether or not the room is occupied. This prototype can be enhanced to be used in an office to alert the occupant to open the window or turn on the air circulator in an office room when the comfort level is low.
+This project has been adjusted throughout time as some components were not working well. Finally, our setup consists of the DHT11 for temperature and humidity, the NDIR CO<sub>2</sub> sensor, and the infrared PIR motion sensor. We can monitor the temperature, humidity, CO<sub>2</sub> level, and motion detection in a room. We have a red LED that responds to the CO<sub>2</sub> level by turning on the light when the level of CO<sub>2</sub> surpasses the threshold of 2000 ppm and the temperature level by turning on when the temperature exceeds 25o C. Another yellow LED indicates whether or not the room is occupied. This prototype can be enhanced to be used in an office to alert the occupant to open the window or turn on the air circulator in an office room when the comfort level is low.
 
-During the development of the code, we encountered a few issues that prohibited the sensors from operating properly. With the help of Professor Bergés, the code was fixed, and then it could run the sensor. We initially planned to use a fan to respond to the CO2 level. However, we ended up changing a responding sensor to a red LED light to act as the fan. Furthermore, we had trouble with the infrared PIR motion sensor by setting our delay and sensitivity very high. We decreased the value of each, and then the PIR sensor could function properly.
+During the development of the code, we encountered a few issues that prohibited the sensors from operating properly. With the help of Professor Bergés, the code was fixed, and then it could run the sensor. We initially planned to use a fan to respond to the CO<sub>2</sub> level. However, we ended up changing a responding sensor to a red LED light to act as the fan. Furthermore, we had trouble with the infrared PIR motion sensor by setting our delay and sensitivity very high. We decreased the value of each, and then the PIR sensor could function properly.
 
 Some scale-up or changes would have to occur before what we created could be actually implemented in an office setting, such as installing the fan with a relay and connecting the PIR motion sensor to actual office lights and adjusting their run-time.
 
@@ -218,7 +218,7 @@ Our final project of a smart office has been rewarding to complete. We had a lot
 
 <h2>Possible Future Work</h2>  
   
-To improve the project and have the features that we first imagined, we would need to conduct an experiment inside a room by putting different numbers of people at a time and recording the level of CO2. We would then be able to run a regression analysis to be able to quantify ambient CO2 levels of different occupancy levels. When the motion sensor detects activity with at least one occupant, our system should be capable of telling the number of occupants that are present there.  
+To improve the project and have the features that we first imagined, we would need to conduct an experiment inside a room by putting different numbers of people at a time and recording the level of CO<sub>2</sub>. We would then be able to run a regression analysis to be able to quantify ambient CO<sub>2</sub> levels of different occupancy levels. When the motion sensor detects activity with at least one occupant, our system should be capable of telling the number of occupants that are present there.  
   
   
 <h2>Acknowledgments</h2>  
