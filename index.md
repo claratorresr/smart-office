@@ -31,7 +31,9 @@ The team gathered the information needed and sensor specification sheets to achi
   
 <h5>Motion detection code:</h5>
 
-![something](https://raw.githubusercontent.com/smart-office-project/smart-office-project.github.io/main/images/2a.png)
+![something](images/code.png)
+<h5>This should work</h5>
+<img src="images/code.png" class="img-responsive" alt=""> </div>
 
 ![something](images/2b.png)
   
