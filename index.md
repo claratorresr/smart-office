@@ -31,25 +31,21 @@ The team gathered the information needed and sensor specification sheets to achi
   
 <h5>Motion detection code:</h5>
 
-![something](images/code.png)
-<h5>This should work</h5>
-<img src="images/code.png" class="img-responsive" alt=""> </div>
-
-![something](images/2b.png)
+<img src="images/code.png" class="img-responsive" alt="">
+<img src="images/code_b.png" class="img-responsive" alt="">
   
   
 <h5>Temperature measurement and led control:</h5>
-
-![something](images/3.png)
+<img src="images/code_c.png" class="img-responsive" alt="">
 
   
 <h4>Report by (10/05/2021)</h4>
 
 The team performed the sensor setup, led setup and wiring as shown in the following pictures, we tested the codes created, the temperature sensor performed well but the infrared sensor had issues when detecting motion. Simultaneously, the team continued updating the project report.
+<img src="images/image_a.png" class="img-responsive" alt="">
 
-![something](images/4a.jpg)
+<img src="images/image_b.png" class="img-responsive" alt="">
 
-![something](images/4b.jpg)
 
 <h4>Report by (10/07/2021)</h4>
   
@@ -61,23 +57,17 @@ The team met with Professor Berges and he helped to correct mistakes in the curr
 The team created the last version of the coding to achieve the project goals, we did experiments and continued working on the report. Finally, we decided to use just the SCD-30 - NDIR CO2, Temperature and Humidity sensor instead of the DHT11  Temperature and Humidity sensor, since the first one includes the functions of the second one, and also we used the HC-SR501 Infrared PIR Motion Sensor Module.
 
 <h5>Motion detection code:</h5>
-  
-![something](images/5a.png)
-
-![something](images/5b.jpg)
+<img src="images/code_d.png" class="img-responsive" alt="">
+<img src="images/code_e.png" class="img-responsive" alt="">
   
 <h5>CO2, Temperature code:</h5>
- 
-![something](images/6a.jpg)
-
-![something](images/6b.jpg)
+ <img src="images/code_f.png" class="img-responsive" alt="">
+ <img src="images/code_g.png" class="img-responsive" alt="">
   
  
 <h5>Final set up:</h5>
- 
-![something](images/7a.jpg)
-
-![something](images/7b.jpg)
+ <img src="images/image_c.jpg" class="img-responsive" alt="">
+ <img src="images/image_d.jpg" class="img-responsive" alt="">
 
 
 <h3>Problems Encountered</h3>  
@@ -91,8 +81,8 @@ The team created the last version of the coding to achieve the project goals, we
   
 <li> We were having trouble with the PIR motion sensor. We were only getting an output saying “Motion Detected”. Our first method of troubleshooting was to use a different PIR sensor. This did not seem to work, so we decided the problem lies elsewhere. After visiting Professor Bergés, he was able to see that our delay was set very high, so after the PIR was triggered it would not stop outputting “Motion Detected”. We turned this parameter down and now we can see that the PIR sensor is working properly. See the figure below.</ul>  
  
-![something](images/8..jpg)   
-
+ 
+<img src="images/image_e.jpg" class="img-responsive" alt="">
 
 <h2>Metodology</h2> 
 
@@ -140,7 +130,8 @@ The DHT11 temperature and humidity sensor uses a simplified single-bus communica
 
 <h4>DHT11 Temperature & Humidity Sensor Module</h4> 
   
-![something](images/9a.jpg)    
+
+<img src="images/image_f.jpg" class="img-responsive" alt="">    
 Image Source:https://www.smart-prototyping.com/DHT11-Humidity-and-Temperature-Sensor-Module
 
 <ul type="circle"> 
@@ -156,10 +147,8 @@ Source: https://shop.evilmadscientist.com/productsmenu/716
 </ul>
 
 <h4>Adafruit SCD-30 - NDIR CO<sub>2</sub>, Temperature and Humidity sensor</h4>
-  
-  
-![something](images/9b.jpg)      
-
+      
+<img src="images/image_g.jpg" class="img-responsive" alt="">
 Image Source: https://learn.adafruit.com/adafruit-scd30?view=all
   
 <ul type="circle"> 
@@ -176,9 +165,8 @@ Source: https://www.adafruit.com/product/386
 </ul>
 
 <h4>HC-SR501 Infrared PIR Motion Sensor Module</h4>
-  
-![something](images/9c.jpg)     
-
+ 
+<img src="images/image_h.png" class="img-responsive" alt="">
 Image Source:https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work
  
  
