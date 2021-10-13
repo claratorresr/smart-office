@@ -10,7 +10,7 @@
 
 In order to improve the comfort, wellness, and health of workers, we want to create a smart office sensor system. During a typical workday, the temperature fluctuates dramatically, especially during the fall or spring seasons; it can be cold in the morning but drastically change in the afternoon. Connecting and disconnecting fans, as well as opening and closing windows, is inefficient and interrupts employees' workflow. With the current COVID-19 pandemic, it is important to monitor CO2  levels in offices and to alert employees when windows should be opened and when there are more people than recommended to prevent contagion. On the other hand, many offices are currently not energy efficient because they lack an energy-control system that optimizes electricity use, resulting in significant energy waste.
 
-![Smart Office](smart_office.jpg)
+![Smart Office](/images/smart_office.jpg)
 mart Office source: https://www.oms-is.eu/offisys/
 
 <h3>Goals</h3>
@@ -31,23 +31,23 @@ The team gathered the information needed and sensor specification sheets to achi
   
 <h5>Motion detection code:</h5>
 
-![something](2a.png)
+![something](/images/2a.png)
 
-![something](2b.png)
+![something](/images/2b.png)
   
   
 <h5>Temperature measurement and led control:</h5>
 
-![something](3.png)
+![something](/images/3.png)
 
   
 <h4>Report by (10/05/2021)</h4>
 
 The team performed the sensor setup, led setup and wiring as shown in the following pictures, we tested the codes created, the temperature sensor performed well but the infrared sensor had issues when detecting motion. Simultaneously, the team continued updating the project report.
 
-![something](4a.jpg)
+![something](/images/4a.jpg)
 
-![something](4b.jpg)
+![something](/images/4b.jpg)
 
 <h4>Report by (10/07/2021)</h4>
   
@@ -60,22 +60,22 @@ The team created the last version of the coding to achieve the project goals, we
 
 <h5>Motion detection code:</h5>
   
-![something](5a.png)
+![something](/images/5a.png)
 
-![something](5b.jpg)
+![something](/images/5b.jpg)
   
 <h5>CO2, Temperature code:</h5>
  
-![something](6a.jpg)
+![something](/images/6a.jpg)
 
-![something](6b.jpg)
+![something](/images/6b.jpg)
   
  
 <h5>Final set up:</h5>
  
-![something](7a.jpg)
+![something](/images/7a.jpg)
 
-![something](7b.jpg)
+![something](/images/7b.jpg)
 
 
 <h3>Problems Encountered</h3>  
@@ -89,7 +89,7 @@ The team created the last version of the coding to achieve the project goals, we
   
 <li> We were having trouble with the PIR motion sensor. We were only getting an output saying “Motion Detected”. Our first method of troubleshooting was to use a different PIR sensor. This did not seem to work, so we decided the problem lies elsewhere. After visiting Professor Bergés, he was able to see that our delay was set very high, so after the PIR was triggered it would not stop outputting “Motion Detected”. We turned this parameter down and now we can see that the PIR sensor is working properly. See the figure below.</ul>  
  
-![something](8..jpg)   
+![something](/images/8..jpg)   
 
 
 <h2>Metodology</h2> 
@@ -138,7 +138,7 @@ The DHT11 temperature and humidity sensor uses a simplified single-bus communica
 
 <h4>DHT11 Temperature & Humidity Sensor Module</h4> 
   
-![something](9a.jpg)    
+![something](/images/9a.jpg)    
 Image Source:https://www.smart-prototyping.com/DHT11-Humidity-and-Temperature-Sensor-Module
 
 <ul type="circle"> 
@@ -156,7 +156,7 @@ Source: https://shop.evilmadscientist.com/productsmenu/716
 <h4>Adafruit SCD-30 - NDIR CO<sub>2</sub>, Temperature and Humidity sensor</h4>
   
   
-![9b](9b.jpg)      
+![something](/images/9b.jpg)      
 
 Image Source: https://learn.adafruit.com/adafruit-scd30?view=all
   
@@ -175,7 +175,7 @@ Source: https://www.adafruit.com/product/386
 
 <h4>HC-SR501 Infrared PIR Motion Sensor Module</h4>
   
-![something](9c.jpg)     
+![something](/images/9c.jpg)     
 
 Image Source:https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work
  
