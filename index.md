@@ -31,8 +31,8 @@ The team gathered the information needed and sensor specification sheets to achi
   
 <h5>Motion detection code:</h5>
 
-<img src="images/code.png" class="img-responsive" alt="">
-<img src="images/code_b.png" class="img-responsive" alt="">
+<img src="images/code.png" class="img-responsive" alt="", width='400', height='400'>
+<img src="images/code_b.png" class="img-responsive" alt="", width='400', height='400'>
   
   
 <h5>Temperature measurement and led control:</h5>
@@ -135,12 +135,12 @@ The DHT11 temperature and humidity sensor uses a simplified single-bus communica
 Image Source:https://www.smart-prototyping.com/DHT11-Humidity-and-Temperature-Sensor-Module
 
 <ul type="circle"> 
-<li> 3 to 5V power and I/O
-<li> 2.5mA max current use during conversion (while requesting data)
-<li> Good for 20-80% humidity readings with 5% accuracy
-<li> Good for 0-50°C temperature readings ±2°C accuracy
-<li> No more than 1 Hz sampling rate (once every second)
-<li> Body size 15.5mm x 12mm x 5.5mm
+<li> 3 to 5V power and I/O</li>
+<li> 2.5mA max current use during conversion (while requesting data)</li>
+<li> Good for 20-80% humidity readings with 5% accuracy</li>
+<li> Good for 0-50°C temperature readings ±2°C accuracy</li>
+<li> No more than 1 Hz sampling rate (once every second)</li>
+<li> Body size 15.5mm x 12mm x 5.5mm</li>
 <li> 4 pins with 0.1" spacing</li>
   
 Source: https://shop.evilmadscientist.com/productsmenu/716  
@@ -148,17 +148,16 @@ Source: https://shop.evilmadscientist.com/productsmenu/716
 
 <h4>Adafruit SCD-30 - NDIR CO<sub>2</sub>, Temperature and Humidity sensor</h4>
       
-<img src="images/image_g.jpg" class="img-responsive" alt="">
-Image Source: https://learn.adafruit.com/adafruit-scd30?view=all
+<img src="images/image_g.jpg" class="img-responsive" alt="Source: https://learn.adafruit.com/adafruit-scd30?view=all">
   
 <ul type="circle"> 
-<li> NDIR CO<sub>2</sub> sensor technology
-<li> Integrated temperature and humidity sensor
-<li> Dual-channel detection for superior stability
-<li> Measurement range: 400 ppm – 10,000 ppm
-<li> Accuracy: ±(30 ppm + 3%)
-<li> Current consumption: 19 mA @ 1 meas. per 2 s.
-<li> Fully calibrated and linearized
+<li> NDIR CO<sub>2</sub> sensor technology</li>
+<li> Integrated temperature and humidity sensor</li>
+<li> Dual-channel detection for superior stability</li>
+<li> Measurement range: 400 ppm – 10,000 ppm</li>
+<li> Accuracy: ±(30 ppm + 3%)</li>
+<li> Current consumption: 19 mA @ 1 meas. per 2 s.</li>
+<li> Fully calibrated and linearized</li>
 <li> I2C digital interface address 0x61</li>
   
 Source: https://www.adafruit.com/product/386
@@ -171,12 +170,12 @@ Image Source:https://learn.adafruit.com/pir-passive-infrared-proximity-motion-se
  
  
 <ul type="circle">
-<li> Output: Digital pulse high (3V) when triggered (motion detected) digital low when idle (no motion detected). Pulse lengths are determined by resistors and capacitors on the PCB and differ from sensor to sensor.
-<li> Sensitivity range: up to 20 feet (6 meters) 110° x 70° detection range
-<li> Power supply: 5V-12V input voltage for most modules (they have a 3.3V regulator), but 5V is ideal in case the regulator has different specs
-<li> BIS0001 Datasheet (the decoder chip used)
-<li> RE200B datasheet (most likely the PIR sensing element used)
-<li> NL11NH datasheet (equivalent lens used)
+<li> Output: Digital pulse high (3V) when triggered (motion detected) digital low when idle (no motion detected). Pulse lengths are determined by resistors and capacitors on the PCB and differ from sensor to sensor.</li>
+<li> Sensitivity range: up to 20 feet (6 meters) 110° x 70° detection range</li>
+<li> Power supply: 5V-12V input voltage for most modules (they have a 3.3V regulator), but 5V is ideal in case the regulator has different specs</li>
+<li> BIS0001 Datasheet (the decoder chip used)</li>
+<li> RE200B datasheet (most likely the PIR sensing element used)</li>
+<li> NL11NH datasheet (equivalent lens used)</li>
 <li> Parallax Datasheet on their version of the sensor</li>
   
 Source: https://www.adafruit.com/product/4867
