@@ -38,7 +38,7 @@ The team gathered the information needed and sensor specification sheets to achi
   
 <h5>Temperature measurement and led control:</h5>
 
-![something](/images/3.png)
+![something](images/3.png)
 
   
 <h4>Report by (10/05/2021)</h4>
