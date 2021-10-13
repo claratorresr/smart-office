@@ -13,10 +13,13 @@ In order to improve the comfort, wellness, and health of workers, we want to cre
 Figure 1. Smart Office source: https://www.oms-is.eu/offisys/
 
 <h3>Goals</h3>
+<ul type="circle">
 <li> Activate a fan automatically when the DHT11  Temperature and Humidity sensor detects temperatures higher than 25 degrees Celsius (77 degrees Fahrenheit).
 <li> Automate the lighting system in an office to improve energy efficiency using the HC-SR501 Infrared PIR Motion Sensor Module.
 <li> Alert people when the Adafruit SCD-30 - NDIR CO<sub>2</sub>, Temperature and Humidity sensor detects 2000 ppm. In this project, a LED light will be turned on in response to an excessive amount of CO<sub>2</sub>.
-  
+</ul>
+
+
 <h2>Progress Report</h2> 
   
 <h3>Current Progress</h3>
@@ -74,12 +77,16 @@ The team created the last version of the coding to achieve the project goals, we
 
   
 <h3>Problems Encountered</h3>  
+
+<ul type="circle">
 <li> We realized that the fan we bought was a 5V fan that is made to keep the raspberry pi cool. We wanted to get a fan that we could control with the GPIO’s but those only supply 3.3V. When looking into a solution, we found that we could wire it with a transistor to get the set-up we wanted, but we did not want to buy a transistor due to time constraint. After visiting Professor Bergés, he suggested that it would be easier to wire the fan with a relay but that would still require time to acquire. He ultimately decided that we could simply wire an LED to signal when the fan should be turned off/on and then we could unplug/plug the fan by hand since this was within the scope of the class.
+
   
 <li> The CO2 sensor we bought came without pins installed. We learned that we would need to get the pins soldered to the sensor ourselves. We took the sensor to TechSpark and they were kind enough to help us out.
+
   
 <li> We were having trouble with the PIR motion sensor. We were only getting an output saying “Motion Detected”. Our first method of troubleshooting was to use a different PIR sensor. This did not seem to work, so we decided the problem lies elsewhere. After visiting Professor Bergés, he was able to see that our delay was set very high, so after the PIR was triggered it would not stop outputting “Motion Detected”. We turned this parameter down and now we can see that the PIR sensor is working properly. See the figure below.
-  
+</ul>  
   
   
   
