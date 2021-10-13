@@ -31,8 +31,8 @@ The team gathered the information needed and sensor specification sheets to achi
   
 <h5>Motion detection code:</h5>
 
-<img src="images/code.png" class="img-responsive" alt="", width='400', height='400'>
-<img src="images/code_b.png" class="img-responsive" alt="", width='400', height='400'>
+<img src="images/code.png" class="img-responsive" alt="">
+<img src="images/code_b.png" class="img-responsive" alt="">
   
   
 <h5>Temperature measurement and led control:</h5>
