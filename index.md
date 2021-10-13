@@ -31,23 +31,23 @@ The team gathered the information needed and sensor specification sheets to achi
   
 <h5>Motion detection code:</h5>
 
-![](2a.png)
+![something](2a.png)
 
-![](2b.png)
+![something](2b.png)
   
   
 <h5>Temperature measurement and led control:</h5>
 
-![3](3.png)
+![something](3.png)
 
   
 <h4>Report by (10/05/2021)</h4>
 
 The team performed the sensor setup, led setup and wiring as shown in the following pictures, we tested the codes created, the temperature sensor performed well but the infrared sensor had issues when detecting motion. Simultaneously, the team continued updating the project report.
 
-![4a](4a.jpg)
+![something](4a.jpg)
 
-![4b](4b.jpg)
+![something](4b.jpg)
 
 <h4>Report by (10/07/2021)</h4>
   
@@ -60,22 +60,22 @@ The team created the last version of the coding to achieve the project goals, we
 
 <h5>Motion detection code:</h5>
   
-![5a](5a.png)
+![something](5a.png)
 
-![5b](5b.jpg)
+![something](5b.jpg)
   
 <h5>CO2, Temperature code:</h5>
  
-![6a](6a.jpg)
+![something](6a.jpg)
 
-![6b](6b.jpg)
+![something](6b.jpg)
   
  
 <h5>Final set up:</h5>
  
-![7a](7a.jpg)
+![something](7a.jpg)
 
-![7b](7b.jpg)
+![something](7b.jpg)
 
 
 <h3>Problems Encountered</h3>  
@@ -89,7 +89,7 @@ The team created the last version of the coding to achieve the project goals, we
   
 <li> We were having trouble with the PIR motion sensor. We were only getting an output saying “Motion Detected”. Our first method of troubleshooting was to use a different PIR sensor. This did not seem to work, so we decided the problem lies elsewhere. After visiting Professor Bergés, he was able to see that our delay was set very high, so after the PIR was triggered it would not stop outputting “Motion Detected”. We turned this parameter down and now we can see that the PIR sensor is working properly. See the figure below.</ul>  
  
-![8.](8..jpg)   
+![something](8..jpg)   
 
 
 <h2>Metodology</h2> 
@@ -138,7 +138,7 @@ The DHT11 temperature and humidity sensor uses a simplified single-bus communica
 
 <h4>DHT11 Temperature & Humidity Sensor Module</h4> 
   
-![9a](9a.jpg)    
+![something](9a.jpg)    
 Image Source:https://www.smart-prototyping.com/DHT11-Humidity-and-Temperature-Sensor-Module
 
 <ul type="circle"> 
@@ -175,7 +175,7 @@ Source: https://www.adafruit.com/product/386
 
 <h4>HC-SR501 Infrared PIR Motion Sensor Module</h4>
   
-![9c](9c.jpg)     
+![something](9c.jpg)     
 
 Image Source:https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work
  
