@@ -28,17 +28,15 @@ Report by (10/01/2021)
   
 The team gathered the information needed and sensor specification sheets to achieve the project. Additional sensor SCD-30 - NDIR CO2, Temperature and Humidity and a miniature 5V cooling fan were ordered from Adafruit. The team started creating the code to meet our 3 main goals, measure temperature, detect motion to turn on lights in the smart office and detect high high CO2 levels. Moreover, during this meeting, the team initiated the project report.v
   
-  Motion detection code:
-  .
-  .
-  .PHOTO
-  .
+Motion detection code:
 
-  Temperature measurement and led control:
-  .
-  .
-  photo
-  .
+
+![2a](2a.png)
+![2b](2b.png)
+  
+  
+Temperature measurement and led control:
+
 
   
 Report by (10/05/2021)
