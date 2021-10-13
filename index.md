@@ -66,8 +66,8 @@ The team created the last version of the coding to achieve the project goals, we
   
  
 <h5>Final set up:</h5>
- <img src="images/image_c.jpg" class="img-responsive" alt="" width = "700"/>
- <img src="images/image_d.jpg" class="img-responsive" alt="" width = "700"/>
+ <img src="images/image_c.jpg" class="img-responsive" alt="" width = "500"/>
+ <img src="images/image_d.jpg" class="img-responsive" alt="" width = "500"/>
 
 
 <h3>Problems Encountered</h3>  
@@ -80,11 +80,10 @@ The team created the last version of the coding to achieve the project goals, we
 
   
 <li> We were having trouble with the PIR motion sensor. We were only getting an output saying “Motion Detected”. Our first method of troubleshooting was to use a different PIR sensor. This did not seem to work, so we decided the problem lies elsewhere. After visiting Professor Bergés, he was able to see that our delay was set very high, so after the PIR was triggered it would not stop outputting “Motion Detected”. We turned this parameter down and now we can see that the PIR sensor is working properly. See the figure below.
-  </ul>
+</ul>
  
  
-<img src="images/image_e.jpg" class="img-responsive" alt="" width = "700"/>
-
+<img src="images/image_e.jpg" class="img-responsive" alt="" width = "600"/>
 
 
 <h2>Metodology</h2> 
@@ -151,7 +150,7 @@ Source: https://shop.evilmadscientist.com/productsmenu/716
 
 <h4>Adafruit SCD-30 - NDIR CO<sub>2</sub>, Temperature and Humidity sensor</h4>
       
-<img src="images/image_g.jpg" class="img-responsive" alt="Source: https://learn.adafruit.com/adafruit-scd30?view=all">
+<img src="images/image_g.jpg" class="img-responsive" alt="Source: https://learn.adafruit.com/adafruit-scd30?view=all" width = "500"/>
   
 <ul type="circle"> 
 <li> NDIR CO<sub>2</sub> sensor technology</li>
