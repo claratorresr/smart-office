@@ -30,9 +30,7 @@ The team gathered the information needed and sensor specification sheets to achi
   
 Motion detection code:
 
-![2a](2a.png)
 
-![2b](2b.png)
   
   
 Temperature measurement and led control:
