@@ -87,7 +87,7 @@ The team created the last version of the coding to achieve the project goals, we
 <img src="images/image_e.jpg" class="img-responsive" alt="" width = "600"/>
 
 
-<h2>Metodology</h2> 
+<h2>Methodology</h2> 
 
 <h3>Review of the Phenomena of Interest</h3>
 
