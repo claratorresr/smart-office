@@ -134,8 +134,7 @@ The DHT11 temperature and humidity sensor uses a simplified single-bus communica
 <h4>DHT11 Temperature & Humidity Sensor Module</h4> 
   
 
-<img src="images/image_f.jpg" class="img-responsive" alt="">    
-Image Source:https://www.smart-prototyping.com/DHT11-Humidity-and-Temperature-Sensor-Module
+<img src="images/image_f.jpg" class="img-responsive" alt="Source:https://www.smart-prototyping.com/DHT11-Humidity-and-Temperature-Sensor-Module"> 
 
 <ul type="circle"> 
 <li> 3 to 5V power and I/O</li>
