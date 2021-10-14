@@ -62,13 +62,13 @@ The team created the last version of the coding to achieve the project goals, we
 <img src="images/code_e.png" class="img-responsive" alt="">
   
 <h5>CO<sub>2</sub>, Temperature code:</h5>
- <img src="images/code_f.png" class="img-responsive" alt="">
- <img src="images/code_g.png" class="img-responsive" alt="">
+<img src="images/code_f.jpg" class="img-responsive" alt="">
+<img src="images/code_g.jpg" class="img-responsive" alt="">
   
  
 <h5>Final set up:</h5>
- <img src="images/image_c.jpg" class="img-responsive" alt="" width = "500"/>
- <img src="images/image_d.jpg" class="img-responsive" alt="" width = "500"/>
+<img src="images/image_c.jpg" class="img-responsive" alt="" width = "500"/>
+<img src="images/image_d.jpg" class="img-responsive" alt="" width = "500"/>
 
 
 <h3>Problems Encountered</h3>  
