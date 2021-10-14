@@ -16,9 +16,9 @@ Image Source: https://www.oms-is.eu/offisys/
 
 <h3>Goals</h3>
 <ul type="circle">
-<li> Activate a fan automatically when the DHT11  Temperature and Humidity sensor detects temperatures higher than 25 degrees Celsius (77 degrees Fahrenheit).
-<li> Automate the lighting system in an office to improve energy efficiency using the HC-SR501 Infrared PIR Motion Sensor Module.
-<li> Alert people when the Adafruit SCD-30 - NDIR CO<sub>2</sub>, Temperature and Humidity sensor detects 2000 ppm. In this project, a LED light will be turned on in response to an excessive amount of CO<sub>2</sub>.</ul>
+<li> Activate a fan automatically when the DHT11  Temperature and Humidity sensor detects temperatures higher than 25 degrees Celsius (77 degrees Fahrenheit).</li>
+<li> Automate the lighting system in an office to improve energy efficiency using the HC-SR501 Infrared PIR Motion Sensor Module.</li>
+<li> Alert people when the Adafruit SCD-30 - NDIR CO<sub>2</sub>, Temperature and Humidity sensor detects 2000 ppm. In this project, a LED light will be turned on in response to an excessive amount of CO<sub>2</sub>.</li></ul>
 
 
 
