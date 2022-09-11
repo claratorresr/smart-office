@@ -2,7 +2,7 @@
 <h1>Smart Office Project</h1>
 <b>Team members:</b> Manish Mishra, Sofia Martinez, Clara Torres, Suphanat Juengprasertsak
 
-
+<b>Video Link:</b> <a>https://www.youtube.com/watch?v=Nni7AQKj8ps</a>
 
 <h2>Introduction</h2>
 
